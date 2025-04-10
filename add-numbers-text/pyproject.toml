@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "add-numbers-text"
+version = "0.1.0"
+description = "A tool to add page numbers in text format to PDFs"
+authors = ["Herminio <herminiopaucar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymupdf = "^1.23.6"  # Library for PDF processing
+num2words = "^0.5.0"  # Converts numbers to words
+pillow = "^10.0.1"  # Image generation library
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
